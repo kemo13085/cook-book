@@ -1,0 +1,19 @@
+body{
+    font-family: "Brush Script MT", Arial, sans-serif;
+    background-color: pink;
+}
+
+h1, h3{
+    background-color: cyan;
+    font-weight: bold;
+    text-align: center;
+}
+
+h3 p{
+    color: rgb(44, 44, 0);
+}
+
+h1{
+    font-size: 52px;
+    color: red;
+}
