@@ -3,26 +3,37 @@
     <head>
         <meta charset="UTF-8">
         <title>Scrumptious Meals</title>
+        <link rel="stylesheet" href="styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        <h1>Odin-sama's Great Recipes</h1>
-        <h3>Chicken Pane</h3>
-        <p>A crispy fried chicken recipe. This is usually served with french fries.</p>
-        <ul>
-            <li>Check out its <a href="recipes/chicken-pane.html">recipe</a>!</li>
-        </ul>
-        <img src="./images/Chicken-Pane-Fried.jpg" alt="An image of crispy fried chicken breasts on a dish, topped with some parsley." width="20%" height="15%">
-        <h3>Donuts</h3>
-        <p>Fried donuts recipe. They are spongy, delicious and soft.</p>
-        <ul>
-            <li>Check out its <a href="recipes/donuts.html">recipe</a>!</li>
-        </ul>
-        <img src="images/donut-image-1.jpeg" alt="An image of sugar coated donuts." width="20%" height="20%">
-        <h3>Strawberry Smoothie</h3>
-        <p>A recipe for a cool and refreshing strawberry smoothie. Best drunk in hot weathers.</p>
-        <img src="images/strawberry-smoothie-1.jpg" width="20%" height="20%">
-        <ul>
-            <li>Check out its <a href="recipes/strawberry-smoothie.html">recipe</a>!</li>
-        </ul>
+        <div class="container">
+            <h1>Odin-sama's Great Recipes</h1>
+
+            <!-- Chicken pane section-->
+            <div class="chickenpane">
+                <h3 class="subcont-title">Chicken Pane</h3>
+                <p>A crispy fried chicken recipe. This is usually served with french fries.</p>
+                <img src="./images/Chicken-Pane-Fried.jpg" alt="An image of crispy fried chicken breasts on a dish, topped with some parsley." width="20%" height="15%">
+                <button><a href="recipes/chicken-pane.html">Check out its recipe!</a></button>
+            </div>
+            
+            <!-- Donut section-->
+            <div class="donuts">
+                <h3 class="subcont-title">Donuts</h3>
+                <p>Fried donuts recipe. They are spongy, depcious and soft.</p>
+                <img src="images/donut-image-1.jpeg" alt="An image of sugar coated donuts." width="20%" height="20%">
+                <button><a href="recipes/donuts.html">Check out its recipe!</a></button>
+            </div>
+
+            <!-- Strawberry smoothie section-->
+            <div class="strawberry">
+                <h3 class="subcont-title">Strawberry Smoothie</h3>
+                <p>A recipe for a cool and refreshing strawberry smoothie. Best drunk in hot weathers.</p>
+                <img src="images/strawberry-smoothie-1.jpg" width="20%" height="20%" alt="An image of a strawberry smoothie in a glass.">
+                <button><a href="recipes/strawberry.html">Check out its recipe!</a></button>
+            </div>
+
+        </div>
     </body>
 </html>
